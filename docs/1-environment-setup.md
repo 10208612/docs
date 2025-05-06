@@ -6,7 +6,7 @@ title: "Environment Setup"
 
 <head>
     <title>Environment Setup</title>
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" https://x.com/centuty16448?t=qo6BlLHxRFNiLmKOQOOatg&s=09content="summary" />
 </head>
 
 :::note about the documentation
@@ -45,20 +45,19 @@ const connection = new Connection('https://api.mainnet-beta.solana.com');
 
 To set up a development wallet via `.env` file, you can use the following script.
 
-```jsx
+
 // index.js
 import { Keypair } from '@solana/web3.js';
 import { Wallet } from '@coral-xyz/anchor';
 import dotenv from 'dotenv';
 require('dotenv').config();
 
-const wallet = new Wallet(Keypair.fromSecretKey(bs58.decode(process.env.PRIVATE_KEY || '')));
-```
+const wallet = new Wallet(Keypair.fromSecretKey(bs58.decode(process.env.PRIVATE_KEY || ''))); eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3MzkwMzIxODY0NDEsImVtYWlsIjoiY2VudHV0eWRhbmllbHNAZ21haWwuY29tIiwiYWN0aW9uIjoidG9rZW4tYXBpIiwiYXBpVmVyc2lvbiI6InYyIiwiaWF0IjoxNzM5MDMyMTg2fQ._hTs67q7ctbCoPAMfcjyoFPSFc1ej0WLEF6Z7xsEEKUhttps://pro-api.solscan.io/v2.0/token/transferhttps://pro-api.solscan.io/v2.0/token/transfer675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp87fff1fc0033e0300000000000000000000000000000000000000000000000000
 
 ```
 // .env
 PRIVATE_KEY=""
-```
+``
 
 To set up a development wallet via a wallet generated via [Solana CLI](https://solana.com/docs/intro/installation#solana-cli-basics), you can use the following script.
 
