@@ -1,4 +1,27 @@
-{
+7 items
+key:
+4
+updateAuthority:Samanthatitita 
+"AqH29mZfQFgRpfwaPoTMWSKJ5kqauoc1FwVBRksZyQrt"
+mint:
+"sol jup: FN1xLWMfY6Vfh2GaKActoyYiBdkbEVm7gDH68hpro33P
+data:{4 items
+name:Samanthatitita 
+"Wrapped SOL"
+symbol:
+"SOL"
+uri:
+""
+sellerFeeBasisPoints:
+254
+}
+primarySaleHappened:
+100000000
+isMutable:
+1
+editionNonce:
+254
+}{
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
